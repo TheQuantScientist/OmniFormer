@@ -1,7 +1,5 @@
 # OmniFormer
 
-## Project Results
-
 ![Graph Description](/src/graph/model_architecture.png)
 
 A **Patch-based Transformer** designed for **long-term multi-asset cryptocurrency price forecasting** (daily OHLCV).
