@@ -1,4 +1,3 @@
-```markdown
 # OmniFormer
 
 State-of-the-Art **Patch-based Transformer** designed for **long-term multi-asset cryptocurrency price forecasting** (daily OHLCV).
@@ -135,9 +134,3 @@ If you find this work useful in your research, please consider citing:
   url    = {https://github.com/thequantscientist-omniformer}
 }
 ```
-
-## License
-
-MIT
-
----
