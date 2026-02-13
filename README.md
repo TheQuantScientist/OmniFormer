@@ -1,6 +1,10 @@
 # OmniFormer
 
-State-of-the-Art **Patch-based Transformer** designed for **long-term multi-asset cryptocurrency price forecasting** (daily OHLCV).
+## Project Results
+
+![Graph Description](/src/graph/model_architecture.png)
+
+A **Patch-based Transformer** designed for **long-term multi-asset cryptocurrency price forecasting** (daily OHLCV).
 
 Focuses on **one-step-ahead** prediction of 10 major cryptocurrencies simultaneously, using shared representation learning across assets.
 
@@ -15,7 +19,6 @@ thequantscientist-omniformer/
         ├── ablation_study.py         # Component ablation experiments
         ├── backtesting.py            # Simple trading strategy simulation
         ├── computation.py            # Training + inference with energy & GPU tracking
-        ├── full_pipeline.py          # (likely end-to-end script – binary in provided tree)
         └── OmniFormer.py             # Core model training + evaluation
 ```
 
