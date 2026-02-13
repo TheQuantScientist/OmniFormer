@@ -64,9 +64,12 @@ The repository includes reference implementations (adapted from [Time-Series-Lib
 - Autoformer
 - FEDformer
 - Informer
-- iTransformer (optional)
+- iTransformer
 
 for fair comparison on the same multi-asset daily crypto dataset.
+
+
+![Graph Description](/src/graph/error_rank.png)
 
 ## Results & Outputs
 
