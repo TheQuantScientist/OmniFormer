@@ -11,7 +11,7 @@ thequantscientist-omniformer/
 ├── README.md
 └── src/
     ├── Benchmark/
-    │   ├── patchtst.py               # PatchTST benchmark (from Time-Series-Library)
+    │   ├── patchtst_benchmark.py               # PatchTST benchmark (from Time-Series-Library)
     │   └── transformer_benchmark.py  # Autoformer / FEDformer / Informer / iTransformer
     └── OmniFormer/
         ├── ablation_study.py         # Component ablation experiments
