@@ -116,16 +116,6 @@ python backtesting.py
 python computation.py
 ```
 
-## Project Status (as of Feb 2026)
-
-- Active development
-- Focus on interpretability, efficiency, and real-world trading simulation
-- Looking for collaborators interested in:
-  - multi-step forecasting
-  - volatility / VaR modeling
-  - cross-market (crypto + equities) extensions
-  - quantization / pruning for edge deployment
-
 ## Citation
 
 If you find this work useful in your research, please consider citing:
@@ -136,5 +126,25 @@ If you find this work useful in your research, please consider citing:
   title  = {OmniFormer: Patch Transformer for Multi-Asset Cryptocurrency Forecasting},
   year   = {2025},
   url    = {https://github.com/thequantscientist-omniformer}
+}
+```
+
+## Acknowledgement
+
+We appreciate the highly reproducible time-series baselines of The-Time-Series repository, which helps us build the benchmark workflows for Transformer variants.
+
+```bibtex
+@inproceedings{wu2023timesnet,
+  title={TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis},
+  author={Haixu Wu and Tengge Hu and Yong Liu and Hang Zhou and Jianmin Wang and Mingsheng Long},
+  booktitle={International Conference on Learning Representations},
+  year={2023},
+}
+
+@article{wang2024tssurvey,
+  title={Deep Time Series Models: A Comprehensive Survey and Benchmark},
+  author={Yuxuan Wang and Haixu Wu and Jiaxiang Dong and Yong Liu and Mingsheng Long and Jianmin Wang},
+  booktitle={arXiv preprint arXiv:2407.13278},
+  year={2024},
 }
 ```
