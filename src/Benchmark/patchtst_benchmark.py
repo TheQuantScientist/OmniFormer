@@ -1,5 +1,8 @@
 import os
 import sys
+
+sys.path.append('.')
+
 import argparse
 import math
 import gc
@@ -13,7 +16,6 @@ from torch.utils.data import Dataset, DataLoader
 from torch.optim.lr_scheduler import CosineAnnealingLR, ReduceLROnPlateau
 
 # Add Time-Series-Library to path
-sys.path.append('/home/nckh2/qa/Time-Series-Library')
 from utils.timefeatures import time_features
 
 # Import PatchTST model
@@ -21,7 +23,7 @@ from models.PatchTST import Model as PatchTST
 
 # ─── Configuration ───────────────────────────────────────────────────────────────
 
-DATA_ROOT = "/home/nckh2/qa/finance/binance_ohlcv_daily"
+DATA_ROOT = "./OmniFormer/dataset"
 
 COIN_PATHS = {
     'ADAUSDT':  f'{DATA_ROOT}/ADAUSDT_1d_full.csv',

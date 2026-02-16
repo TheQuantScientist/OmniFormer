@@ -15,7 +15,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR, ReduceLROnPlateau
 
 # ─── Configuration ───────────────────────────────────────────────────────────────
 
-DATA_ROOT = "/home/nckh2/qa/finance/binance_ohlcv_daily"
+DATA_ROOT = "./OmniFormer/dataset"
 
 file_paths = {
     'ADAUSDT':  f'{DATA_ROOT}/ADAUSDT_1d_full.csv',

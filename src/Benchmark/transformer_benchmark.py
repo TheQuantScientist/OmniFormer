@@ -1,5 +1,8 @@
 import os
 import sys
+
+sys.path.append('.')
+
 import argparse
 import math
 import gc
@@ -12,7 +15,6 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
 # Add Time-Series-Library to path
-sys.path.append('/home/nckh2/qa/Time-Series-Library')
 from utils.timefeatures import time_features
 
 # Import benchmark models
@@ -30,7 +32,7 @@ except ImportError:
 
 # ─── Configuration ───────────────────────────────────────────────────────────────
 
-DATA_ROOT = "/home/nckh2/qa/finance/binance_ohlcv_daily"
+DATA_ROOT = "./OmniFormer/dataset"
 
 COIN_PATHS = {
     'ADAUSDT':  f'{DATA_ROOT}/ADAUSDT_1d_full.csv',
@@ -399,7 +401,7 @@ def main():
     # ─── Save all results ────────────────────────────────────────────────────────
     pd.DataFrame(global_results).to_csv('one_step_transformer_global.csv', index=False)
     pd.DataFrame(per_coin_results).to_csv('one_step_transformer_per_coin.csv', index=False)
-    pd.DataFrame(overfit_results).to_csv('overfit_transformer.csv', index=False)
+    # pd.DataFrame(overfit_results).to_csv('overfit_transformer.csv', index=False)
 
     for model_name, data in forecasts.items():
         df_export = data['true_df'].add_suffix('_true').copy()

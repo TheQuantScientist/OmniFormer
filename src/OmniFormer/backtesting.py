@@ -3,7 +3,7 @@ import numpy as np
 from collections import defaultdict
 
 # ── Data loading & preparation ──────────────────────────────────────────────
-df = pd.read_csv('/home/nckh2/qa/forecasts_EnFormer_refined.csv', index_col=0, parse_dates=True)
+df = pd.read_csv('forecast_file_after_training', index_col=0, parse_dates=True)
 
 coins = sorted(set(col.split('_')[0] for col in df.columns if '_' in col))
 close_true  = {c: f'{c}_close_true'     for c in coins}

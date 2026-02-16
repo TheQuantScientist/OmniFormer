@@ -13,16 +13,16 @@ from torch.utils.data import Dataset, DataLoader
 # ────────────────────────────────────────────────
 
 file_paths = {
-    'ADAUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/ADAUSDT_1d_full.csv',
-    'AVAXUSDT': '/home/nckh2/qa/finance/binance_ohlcv_daily/AVAXUSDT_1d_full.csv',
-    'BNBUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/BNBUSDT_1d_full.csv',
-    'BTCUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/BTCUSDT_1d_full.csv',
-    'DOGEUSDT': '/home/nckh2/qa/finance/binance_ohlcv_daily/DOGEUSDT_1d_full.csv',
-    'ETHUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/ETHUSDT_1d_full.csv',
-    'SOLUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/SOLUSDT_1d_full.csv',
-    'LINKUSDT': '/home/nckh2/qa/finance/binance_ohlcv_daily/LINKUSDT_1d_full.csv',
-    'TRXUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/TRXUSDT_1d_full.csv',
-    'XRPUSDT':  '/home/nckh2/qa/finance/binance_ohlcv_daily/XRPUSDT_1d_full.csv'
+    'ADAUSDT':  'Your Path',
+    'AVAXUSDT': 'Your Path',
+    'BNBUSDT':  'Your Path',
+    'BTCUSDT':  'Your Path',
+    'DOGEUSDT': 'Your Path',
+    'ETHUSDT':  'Your Path',
+    'SOLUSDT':  'Your Path',
+    'LINKUSDT': 'Your Path',
+    'TRXUSDT':  'Your Path',
+    'XRPUSDT':  'Your Path'
 }
 
 seq_len = 90
